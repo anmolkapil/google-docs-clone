@@ -1,0 +1,70 @@
+.menu-bar {
+  margin: 12px 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.docs-logo img{
+  width: 40px;
+  margin-right: 2px;
+}
+
+.document-title{
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  font-size: 20px;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.document-title span:hover {
+  background-color: #eee;
+}
+
+.title-input {
+  width: 170px;
+  padding: 0 7px;
+  line-height: 22px;
+  font-size: 18px;
+  color: #444746;
+  background-color: #f9fbfd;
+  border: none;
+}
+
+.title-input:hover {
+  border-radius: 4px;
+  outline: 1px solid black;
+}
+
+.menu-section {
+  flex-grow: 1;
+}
+
+.menu-list {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list-item {
+  color: #202124;
+  user-select: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  display: inline;
+  padding: 2px 7px;
+  margin-top: 8px;
+  letter-spacing: .2px;
+}
+
+.menu-list-item:hover {
+  background-color: #eee;
+}
+
+.hide {
+  display: none;
+}

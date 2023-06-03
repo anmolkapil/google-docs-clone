@@ -1,0 +1,39 @@
+.editor-page {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 100px;
+  width: 804px;
+  height: 1000px;
+  background-color: white;
+  border: 1px solid #c7c7c7;
+}
+
+.wrapper {
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 140px);
+}
+
+.menu-closed {
+  height: calc(100vh - 70px);
+}
+
+.document-editor {
+  position: relative;
+  flex-grow: 1;
+}
+
+.outer-wrapper {
+  display: flex;
+}
+
+.toggle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.closed {
+  border-radius: 21px 0 0 21px !important;
+  background-color: white;
+}

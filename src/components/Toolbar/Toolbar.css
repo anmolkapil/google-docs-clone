@@ -1,0 +1,99 @@
+.tool-bar {
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+  margin: 6px 1em;
+  margin-bottom: 1em;
+  border-radius: 24px;
+  background-color: #edf2fa;
+}
+
+.test1 {
+  min-width: 800px;
+  align-items: center;
+  display: flex;
+}
+
+.toolbar-icon {
+  border-radius: 4px;
+  margin: 5px 1px;
+  padding: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0,0,0,.7)
+}
+
+.toolbar-icon:hover {
+  background-color: rgba(68,71,70, .078);
+}
+
+.toolbar-icon:active {
+  background-color: rgba(68,71,70, .122);
+}
+
+.toolbar-icon span {
+  font-size: 20px;
+}
+
+.separator {
+  width: 1px;
+  height: 20px;
+  margin: 10px 3px;
+  border-left: 1px solid  #c7c7c7;
+}
+
+.dropdown {
+  font-size: 14px;
+}
+
+.dropdown p {
+  margin: 0 8px 0 2px;
+}
+
+.dropdown .arrow {
+  margin-right: -4px;
+
+}
+
+.gap {
+  margin-right: 25px !important;
+}
+
+.text-size {
+  margin: 5px 2px;
+  color: rgba(0,0,0,.7);
+  font-weight: bolder;
+  font-size: 14px;
+  text-align: center;
+  background-color: #edf2fa;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 30px;
+}
+
+.mini-icon {
+  font-size: 17px !important;
+}
+
+.mini {
+  padding: 3px;
+}
+
+.test {
+  display: flex;
+}
+
+.editor {
+  border-radius: 50px !important;
+  padding: 0 16px;
+}
+
+.active {
+  background-color: #d3e3fd;
+}
+
+.active:hover {
+  background-color: #d3e3fd;
+}
